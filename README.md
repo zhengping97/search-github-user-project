@@ -31,9 +31,8 @@ import { FiUsers, FiUserPlus } from 'react-icons/fi';
 ## React Router Dom
 
 - [react-router-dom - Main Docs](https://reactrouter.com/web/guides/quick-start)
-- A <Route path="*"> always matches
 
-## Gihthub API
+## Github API
 
 - [Root Endpoint](https://api.github.com)
 - [Get User](https://api.github.com/users/wesbos)
