@@ -20,18 +20,18 @@ ReactFC.fcRoot(FusionCharts, Chart, FusionTheme);
 
 const ChartComponent = ({ data }) => {
   const chartConfigs = {
-    type: "doughnut2d", // The chart type
+    type: "bar2d", // The chart type
     width: "100%", // Width of the chart
     height: "400", // Height of the chart
     dataFormat: "json", // Data type
     dataSource: {
       // Chart Configuration
       chart: {
-        //Set the chart caption
-        caption: "Size Per Language",
-        decimals: 0,
-        doughnutRadius: '45%',
-        showPercentValues: 0,
+        caption: "Most Forked",
+        yAxisName: "Forks",
+        xAxisName: "Repos",
+        xAxisNameFontSize: '16px',
+        yAxisNameFontSize: '16px',
         theme: 'candy'
       },
       // Chart Data

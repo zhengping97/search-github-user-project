@@ -12,7 +12,7 @@ import FusionCharts from "fusioncharts";
 import Chart from "fusioncharts/fusioncharts.charts";
 
 // Include the theme as fusion
-import FusionTheme from "fusioncharts/themes/fusioncharts.theme.candy";
+import FusionTheme from "fusioncharts/themes/fusioncharts.theme.gammel";
 
 // Adding the chart and theme as dependency to the core fusioncharts
 ReactFC.fcRoot(FusionCharts, Chart, FusionTheme);
@@ -20,19 +20,19 @@ ReactFC.fcRoot(FusionCharts, Chart, FusionTheme);
 
 const ChartComponent = ({ data }) => {
   const chartConfigs = {
-    type: "doughnut2d", // The chart type
+    type: "column2d", // The chart type
     width: "100%", // Width of the chart
     height: "400", // Height of the chart
     dataFormat: "json", // Data type
     dataSource: {
       // Chart Configuration
       chart: {
-        //Set the chart caption
-        caption: "Size Per Language",
-        decimals: 0,
-        doughnutRadius: '45%',
-        showPercentValues: 0,
-        theme: 'candy'
+        caption: "Largest Project",
+        yAxisName: "Size",
+        xAxisName: "Repos",
+        xAxisNameFontSize: '16px',
+        yAxisNameFontSize: '16px',
+        theme: 'gammel'
       },
       // Chart Data
       data,
