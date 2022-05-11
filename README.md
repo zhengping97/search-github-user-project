@@ -2,6 +2,10 @@
 
 [Styled-Components - Main Docs](https://styled-components.com/)
 
+```
+npm install styled-components
+```
+
 ```jsx
 import styled from "styled-components";
 
@@ -21,6 +25,10 @@ export default ReactComponent
 
 ## React Icons
 
+```
+npm install react-icons
+```
+
 [React Icons - Main Docs](https://react-icons.github.io/react-icons/)
 
 ```jsx
@@ -30,19 +38,29 @@ import { FiUsers, FiUserPlus } from 'react-icons/fi';
 
 ## React Router Dom
 
+```
+npm install react-router-dom
+```
+
 - [react-router-dom - Main Docs](https://reactrouter.com/web/guides/quick-start)
 
 ## Github API
 
 - [Root Endpoint](https://api.github.com)
-- [Get User](https://api.github.com/users/wesbos)
-- [Repos](https://api.github.com/users/john-smilga/repos?per_page=100)
-- [Followers](https://api.github.com/users/john-smilga/followers)
+- [Get User](https://api.github.com/users/zhengping97)
+- [Repos](https://api.github.com/users/zhengping97/repos?per_page=100)
+- [Followers](https://api.github.com/users/zhengping97/followers)
 - [Rate Limit](https://api.github.com/rate_limit)
 
   For unauthenticated requests, the rate limit allows for up to 60 requests per hour. Unauthenticated requests are associated with the originating IP address, and not the user making requests.
 
 ## Fusion Charts
+
+FusionCharts is privately held software provider of data visualization products (JavaScript Charts, Maps, Widgets and Dashboards)
+
+```
+npm install fusioncharts react-fusioncharts --save
+```
 
 - [Fusion Charts - Main Docs](https://www.fusioncharts.com/)
 - [First React Chart](https://www.fusioncharts.com/dev/getting-started/react/your-first-chart-using-react)
@@ -51,7 +69,13 @@ import { FiUsers, FiUserPlus } from 'react-icons/fi';
 
 ## Auth0
 
+Auth0 is a flexible, drop-in solution to add authentication and authorization services to your applications. Your team and organization can avoid the cost, time, and risk that come with building your own solution to authenticate and authorize users.
+
 - [Auth0 - Main Docs](https://auth0.com/)
+
+```
+npm install @auth0/auth0-react
+```
 
 - Create Application
 - Choose : Single Page Web Applications
@@ -72,25 +96,10 @@ import { FiUsers, FiUserPlus } from 'react-icons/fi';
 - [React SDK Docs](https://auth0.com/docs/libraries/auth0-react)
 - [REACT SDK API Docs](https://auth0.github.io/auth0-react/)
 
-## Deployment
-
-[Netlify](https://www.netlify.com/)
-
-## Additional Info
-
-#### Redirects with react-router-dom
-
-In order for routing to work on netlify, redirects was added to the public folder
-
-- \_redirects file in public
-
+## Axios
 ```
-
-/*    /index.html   200
-
+npm install axios
 ```
-
-[Redirects Blog Post](https://dev.to/dance2die/page-not-found-on-netlify-with-react-router-58mc)
 
 # Getting Started with Create React App
 
