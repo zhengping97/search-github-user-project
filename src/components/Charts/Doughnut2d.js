@@ -27,7 +27,6 @@ const ChartComponent = ({ data }) => {
     dataSource: {
       // Chart Configuration
       chart: {
-        //Set the chart caption
         caption: "Size Per Language",
         decimals: 0,
         doughnutRadius: '45%',
