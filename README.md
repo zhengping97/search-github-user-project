@@ -1,3 +1,16 @@
+# Search Github User App https://search-github-user-project.vercel.app/
+The Search Github User App is a web application build with reactjs to search for Github user and observe their github activity retrieved from the Github API. See below for the resources used to build the application.
+
+## Github API
+
+- [Root Endpoint](https://api.github.com)
+- [Get User](https://api.github.com/users/zhengping97)
+- [Repos](https://api.github.com/users/zhengping97/repos?per_page=100)
+- [Followers](https://api.github.com/users/zhengping97/followers)
+- [Rate Limit](https://api.github.com/rate_limit)
+
+  For unauthenticated requests, the rate limit allows for up to 60 requests per hour. Unauthenticated requests are associated with the originating IP address, and not the user making requests.
+
 ## Styled Components
 
 [Styled-Components - Main Docs](https://styled-components.com/)
@@ -43,16 +56,6 @@ npm install react-router-dom
 ```
 
 - [react-router-dom - Main Docs](https://reactrouter.com/web/guides/quick-start)
-
-## Github API
-
-- [Root Endpoint](https://api.github.com)
-- [Get User](https://api.github.com/users/zhengping97)
-- [Repos](https://api.github.com/users/zhengping97/repos?per_page=100)
-- [Followers](https://api.github.com/users/zhengping97/followers)
-- [Rate Limit](https://api.github.com/rate_limit)
-
-  For unauthenticated requests, the rate limit allows for up to 60 requests per hour. Unauthenticated requests are associated with the originating IP address, and not the user making requests.
 
 ## Fusion Charts
 
